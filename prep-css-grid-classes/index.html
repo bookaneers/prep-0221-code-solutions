@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1,
+    h3,
+    p {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: 70%;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <h3>
+          Raiders of the Lost Ark (1981)
+        </h3>
+        <p>
+          The first film is set in 1936. Indiana Jones (Harrison Ford) is hired by government agents to locate the Ark of the
+          Covenant before the Nazi Germans.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+        <h3>
+          Temple of Doom (1984)
+        </h3>
+        <p>
+          The second film is set in 1935, a year before Raiders of the Lost Ark. Indiana escapes Chinese gangsters with the help
+          of singer/actress Willie Scott (Kate Capshaw) and his twelve-year-old sidekick Short Round (Jonathan Ke Quan).
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.png">
+        <h3>
+          The Last Crusade (1989)
+        </h3>
+        <p>
+          The third film is set in 1938. Indiana and his friend Marcus Brody (Denholm Elliott) are assigned by American
+          businessman Walter Donovan (Julian Glover) to find the Holy Grail.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
