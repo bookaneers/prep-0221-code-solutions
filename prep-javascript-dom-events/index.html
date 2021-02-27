@@ -11,7 +11,7 @@
   <button class="hello-world-btn">Hello World!</button>
   <script>
     // Your code here
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       console.log('content loaded!');
     });
 
@@ -19,7 +19,11 @@
       console.log('mouse is moving!');
     });
 
-    document.querySelector()
+    var $helloWorld = document.querySelector('.hello-world-btn');
+
+    $helloWorld.addEventListener('click', function() {
+      console.log('hello world');
+    });
   </script>
 </body>
 
