@@ -26,11 +26,11 @@
   </div>
   <script>
     // Your code here
-    $secondParagraph = document.querySelector('p.second-paragraph');
-    console.log($secondParagraph);
+    var $secondParagraph = document.querySelector('.second-paragraph');
+    var $thirdParagraph = document.querySelector('.third-paragraph');
 
-    $thirdParagraph = document.querySelector('p.third-paragraph');
-    console.log($thirdParagraph);
+    $secondParagraph.textContext = 'I also really like to watch television and eating pancakes.';
+    $thirdParagraph.textContext = 'I hope one day to meet people that also like coding, television, and pancakes.'
   </script>
 </body>
 
